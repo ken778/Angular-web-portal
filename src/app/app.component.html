@@ -1,0 +1,60 @@
+<!-- header -->
+
+<router-outlet></router-outlet>
+
+<!-- footer -->
+<footer class="footer-container">
+  <div class="footer-content">
+    <div class="rows">
+      <h3>MobiTech</h3>
+      <p>
+        <strong>
+          We develop beautiful, websites and mobile apps, focusing on design,
+          content, usability, and simplicity.
+        </strong>
+      </p>
+    </div>
+    <div class="rows">
+      <h3>quick links</h3>
+      <ul class="link">
+        <li>
+          <a [routerLink]="['/about']" routerLinkActive="router-link-active"
+            >About us</a
+          >
+        </li>
+        <li class="link">
+          <a [routerLink]="['/contact']" routerLinkActive="router-link-active"
+            >Contact us</a
+          >
+        </li>
+        <li class="link">
+          <a [routerLink]="['/landing']" routerLinkActive="router-link-active"
+            >Home</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="rows">
+      <a class="social" href="https://facebook.com/page" target="_blank">
+        <i class="fa fa-facebook"></i
+      ></a>
+      <a class="social" href="https://twitter.com/intent/tweet" target="_blank"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a class="social" href="https://za.linkedin.com/" target="_blank">
+        <i class="fa fa-linkedin"></i
+      ></a>
+      <a class="social" href="https://www.instagram.com/?hl=en" target="_blank">
+        <i class="fa fa-instagram"></i
+      ></a>
+
+      <a class="social" href="#">@mobitech.co.za</a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-copyright">
+    Copy right © 2020 MobiTech(Pty)Ltd.All rights reserved.
+  </div>
+  <!-- Copyright -->
+</footer>

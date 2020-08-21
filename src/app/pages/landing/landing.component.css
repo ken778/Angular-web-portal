@@ -1,0 +1,258 @@
+.page {
+  width: 100%;
+  float: left;
+  display: flex;
+}
+
+/*header*/
+.main-header {
+  width: 100%;
+  float: left;
+  background-image: url(../../../assets/PRESTASHOP12.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.page div:last-child {
+  width: 80%;
+  float: left;
+}
+.page div:first-child {
+  background-color: aliceblue;
+  width: 20%;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.page div:first-child p {
+  font-family: "roboto";
+}
+.content div:last-child {
+  padding-right: 20px;
+  margin-right: 40px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.content div:last-child p {
+  font-family: "roboto";
+}
+.content {
+  background-color: aliceblue;
+  width: 80%;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  /* border-bottom: 1px solid grey;
+    border-top: 1px solid grey;*/
+  border: ridge;
+  font-family: Calibri;
+  border-radius: 2%;
+}
+
+#post {
+  width: 60%;
+  height: 400px;
+  padding-left: 20px;
+  margin-left: 10px;
+  background-color: aliceblue;
+}
+#post h1,
+h2 {
+  font-weight: bold;
+  font-family: Georgia, serif;
+  text-decoration: underline grey;
+
+  text-transform: uppercase;
+  font-style: oblique 0deg;
+  color: #4d5152;
+}
+#post img {
+  width: 100%;
+}
+.content h4 {
+  padding: 0px 0px 0px 20px;
+}
+
+.sub-middle-page {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f9fc;
+}
+.services {
+  width: 33.33%;
+  height: 530px;
+  float: left;
+}
+.sub-middle-page .services img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.sub-middle-page div:last-child {
+  margin-left: 20px;
+}
+.sub-middle-page div:first-child {
+  margin-right: 20px;
+}
+.middle-page h1 {
+  text-align: center;
+  font: small-caps bold 30px/1 sans-serif;
+}
+.middle-page {
+  width: 100%;
+  float: left;
+  background-color: #f7f9fc;
+}
+.services p {
+  font-family: "roboto";
+}
+.services h2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  color: rgb(80, 77, 77);
+}
+.page div:first-child p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/*service-container*/
+.service-container {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+.service-container ul li {
+  list-style-type: none;
+}
+.service-container ul > li::before {
+  content: "►";
+  color: #509e98;
+  padding-right: 1px;
+}
+.service-container-details {
+  width: 40%;
+}
+.service-container-picture {
+  width: 40%;
+  margin-left: 20px;
+}
+.service-container-details p {
+  font-size: 1.1em;
+  font: caption;
+}
+.service-container-details ul li {
+  font-size: 1.1em;
+  font: caption;
+}
+.service-container-details h2 {
+  text-transform: uppercase;
+  font-style: oblique 0deg;
+  color: #4d5152;
+}
+.service-container2 {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+.service-container2 ul li {
+  list-style-type: none;
+}
+.service-container2 ul > li::before {
+  content: "►";
+  color: #509e98;
+  padding-right: 1px;
+}
+.service-container-details2 {
+  width: 40%;
+}
+.service-container-picture2 {
+  width: 40%;
+  margin-left: 20px;
+}
+.service-container-details2 p {
+  font-size: 1.1em;
+  font: caption;
+}
+.service-container-details2 h2 {
+  text-transform: uppercase;
+  font-style: oblique 0deg;
+  color: #4d5152;
+}
+.service-container-details2 ul li {
+  font-size: 1.1em;
+  font: caption;
+}
+/*serv-container*/
+.serv-container {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  padding-right: -2rem;
+}
+.coding-picture {
+  display: none;
+}
+.coding-picture {
+  width: 30%;
+  padding-left: 5px;
+}
+
+.serv-content {
+  float: left;
+  width: 80%;
+  padding-left: 10px;
+  margin-right: -8rem;
+
+  text-align: center;
+}
+.serv-container {
+  width: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgb(197, 212, 241),
+    rgb(177, 174, 243)
+  );
+}
+.serv-icons-images {
+  display: none;
+}
+.serv-content-details {
+  float: left;
+  width: 50%;
+  margin-right: -5px;
+  padding: 2%;
+}
+.serv-content h1 {
+  font: small-caps bold 25px/1 sans-serif;
+}
+.icon-image {
+  padding-top: 45px;
+}
+
+.serv-icons-images {
+  padding-top: 10px;
+  width: 4%;
+
+  padding-left: 80px;
+  margin-left: 40px;
+}
+.serv-content-details h3 {
+  text-transform: uppercase;
+  font-style: oblique 0deg;
+  color: #4d5152;
+}
+.serv-content-details p {
+  font-size: 1.1em;
+  font: caption;
+}
