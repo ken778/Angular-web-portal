@@ -13,7 +13,7 @@ body {
   float: left;
   margin-top: 85px;
   background-color: rgba(176, 170, 196, 0.5);
-  height: 150px;
+  height: 210px;
   margin-left: 5px;
   width: 40%;
   padding-top: 50px;
@@ -75,8 +75,322 @@ body {
   margin-top: -4px;
 }
 .main-menu {
-  padding: 1.5%;
+  padding: 2.5%;
 }
 .mobile-menu {
   display: none;
+}
+.mobi {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile-menu {
+  display: none;
+}
+.mobile-menu {
+  z-index: 5;
+  background-color: rgb(250, 244, 244);
+  box-shadow: 0 -5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.mobile {
+  text-align: center;
+  width: 33.333%;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .page,
+  .page div:last-child,
+  .serv-container,
+  .serv-content,
+  .service-container,
+  .service-container2,
+  .sub-middle-page,
+  .services,
+  .footer-content,
+  .contact-us-page,
+  .sub-middle-abtpage {
+    display: block !important;
+  }
+  .mobile-menu {
+    display: flex;
+    width: 100%;
+    float: left;
+    position: fixed;
+    bottom: 0;
+  }
+  .mobile {
+    font-size: 2rem;
+  }
+  .mobile span {
+    color: rgb(66, 64, 64);
+  }
+  .footer-content div:last-child {
+    width: 80%;
+  }
+  .icon {
+    padding-left: -2rem;
+  }
+  /*.social-icons .icon .fa {
+    padding: 10px 20px 10px 10px;
+    font-size: 15px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 50%;
+  }*/
+  /*.footer-content div:last-child a:not(:last-of-type) {
+    margin-left: 4px;
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    display: inline-block;
+    border-radius: 24px;
+  }*/
+  .footer-content div:last-child .social:not(:last-of-type) {
+    margin-left: 4px;
+    width: 35px !important;
+    height: 35px !important;
+    background-color: #ccc;
+    display: inline-block;
+    border-radius: 24px;
+  }
+  .social i::before {
+    width: 100%;
+    height: 100%;
+    text-align: left !important;
+    margin-left: -5px;
+    margin-top: -3px !important;
+  }
+  .footer-content div:last-child {
+    margin-left: 3 rem;
+
+    text-align: center;
+  }
+  .serv-container {
+    float: left;
+  }
+  .coding-picture img {
+    width: 400px;
+    height: 300px;
+  }
+  .coding-picture {
+    text-align: center;
+  }
+  .discover {
+    margin-top: -30px;
+    padding-top: -10px;
+  }
+  .innovation {
+    margin-bottom: -10px;
+  }
+  #post {
+    height: 350px;
+  }
+  .page div:first-child,
+  .page div:last-child,
+  .main-header,
+  .topnav-container,
+  .coding-picture,
+  .serv-content,
+  .serv-content-details,
+  .service-container-details,
+  .serv-content-details-picture,
+  .service-container-details2,
+  .sub-middle-page,
+  .footer-content,
+  .about-body,
+  .abtservices,
+  .contact-us-page {
+    width: 100% !important;
+  }
+
+  .middle-page {
+    width: 100%;
+  }
+  .discover-image img,
+  #topnav,
+  .page,
+  .serv-icons-images,
+  .coding-picture,
+  .scrolling-text,
+  .sub-middle-abtpage div:first-child img,
+  #map {
+    display: none !important;
+  }
+
+  .sub-middle-abtpage div:first-child {
+    height: 200px;
+  }
+  .sub-middle-page div:nth-child(3),
+  .sub-middle-page div:nth-child(2),
+  .sub-middle-page div:nth-child(1) {
+    width: 94%;
+    text-align: center;
+  }
+  .sub-middle-page div:nth-child(3) img {
+    margin-left: -1rem;
+  }
+  .sub-middle-page div:nth-child(2),
+  .sub-middle-page div:nth-child(1) {
+    margin-left: 0.5rem;
+  }
+  .serv-content-details-picture img {
+    width: 68%;
+  }
+  .serv-content-details-picture {
+    text-align: center;
+  }
+  .service-container-picture2 img {
+    width: 72% !important;
+  }
+
+  .service-container-picture2 {
+    margin-top: 1.5rem;
+    width: 95% !important;
+
+    text-align: center;
+  }
+  .service-container-picture2 img {
+    width: 80%;
+    height: 80%;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .serv-content-details,
+  .service-container-details2,
+  .service-container-details {
+    float: left;
+    text-align: center;
+  }
+  .serv-content-details,
+  .service-container-details,
+  .service-container-details2 p,
+  .service-container-details p {
+    padding: 2%;
+  }
+  .serv-content h1 {
+    padding: 3%;
+  }
+  .service-container-details,
+  .service-container-details2 h2 {
+    padding: 1%;
+  }
+  .serv-content {
+    width: 100%;
+    margin-left: -10px;
+  }
+  .serv-content-details {
+    width: 96%;
+  }
+  .content {
+    width: 100%;
+    margin-left: -5px;
+  }
+  .banner-content {
+    width: 98%;
+  }
+  .service-container-details {
+    width: 98%;
+  }
+  .column {
+    width: 90% !important;
+    margin-left: 1rem;
+  }
+  .row {
+    width: 100%;
+    display: block !important;
+    text-align: center;
+  }
+  .row div:first-child {
+    margin-top: 1px;
+    height: 320px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20%;
+    width: 100% !important;
+    padding-bottom: -1rem;
+  }
+  #card-container {
+    height: 90px;
+  }
+  .card img {
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+    margin-right: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  .card i {
+    padding-top: -1rem;
+  }
+
+  .rows,
+  #banner-content-contact-us {
+    width: 90% !important;
+  }
+  .footer-content div:nth-child(2),
+  .footer-content div:last-child,
+  .footer-content div:first-child {
+    margin-left: 0px;
+  }
+  .footer-content div:first-child {
+    padding: 2%;
+  }
+  .footer-container {
+    margin-bottom: 3.5rem;
+  }
+  .row div:first-child {
+    margin-top: 15px;
+  }
+  #banner-content-contact-us {
+    margin-top: 90px;
+    height: 200px;
+    padding-top: 2px;
+  }
+  .about-us-header {
+    text-align: center;
+  }
+
+  .abtservices img {
+    width: 60px;
+    height: 60px;
+  }
+  .servive-picture {
+    display: none;
+    height: 100px;
+    width: 100px;
+  }
+  .sub-middle-abtpage div:nth-child(1) p {
+    padding: 1% 3% 4% 2%;
+    margin-bottom: -1.5rem;
+  }
+  .sub-middle-abtpage div:nth-child(3) p {
+    padding: 2% 2% 2% 3%;
+  }
+  #banner-content-contact-us {
+    height: 110px !important;
+  }
+  #banner-content-contact-us {
+    margin-top: 85px;
+    background-color: rgba(176, 170, 196, 0.5);
+    height: 250px;
+    margin-left: 5px;
+    width: 55%;
+    padding-top: 5px;
+    margin-left: 10px;
+  }
+
+  .con-form {
+    width: 33rem !important;
+    margin-left: 7rem !important;
+    padding-bottom: 2px;
+  }
 }

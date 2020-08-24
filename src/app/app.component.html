@@ -1,5 +1,22 @@
 <!-- header -->
+<nav class="mobile-menu">
+  <div class="mobile">
+    <a [routerLink]="['/landing']" routerLinkActive="router-link-active"
+      ><span class="glyphicon glyphicon-home"></span
+    ></a>
+  </div>
 
+  <div class="mobile">
+    <a [routerLink]="['/about']" routerLinkActive="router-link-active"
+      ><span class="glyphicon glyphicon-user"></span
+    ></a>
+  </div>
+  <div class="mobile">
+    <a [routerLink]="['/contact']" routerLinkActive="router-link-active"
+      ><span class="glyphicon glyphicon-earphone"></span
+    ></a>
+  </div>
+</nav>
 <router-outlet></router-outlet>
 
 <!-- footer -->

@@ -3,6 +3,7 @@
   float: left;
   background-image: url(../../../assets/agile.jpg);
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   height: 400px;
 }
